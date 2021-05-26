@@ -6,6 +6,7 @@ with open("date_intrare") as f:
         i = s.index(" ")
         nume = s[0:i]
         varsta = int(s[i+1:-1])
+
         if varsta >= 18:
             adulti.append(nume)
         else:
